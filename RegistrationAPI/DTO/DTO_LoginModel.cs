@@ -17,8 +17,10 @@ namespace RegistrationAPI.DTO
 
         //public string address { get; set; }
 
-      
+
         //public float salary { get; set; }
+        public string Email { get; set; }
+
 
     }
 }

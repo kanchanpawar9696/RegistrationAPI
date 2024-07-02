@@ -40,6 +40,10 @@ namespace ClassAPI.MODEL
         [Column("Salary")]
         public decimal salary { get; set; }
 
+        [DisplayName("Email")]
+        [Column("Email")]
+        public string Email { get; set; }
+
     }
  
 
